@@ -8,10 +8,7 @@ include_once("ControllerItem.php");
 include_once(__DIR__."/../ElectronicItems/ElectronicItemsAggregate.php");
 
 use Tracktik\InterfaceElectronic\Constants;
-use Tracktik\ElectronicItem\ConsoleItem;
-use Tracktik\ElectronicItem\TelevisionItem;
-use Tracktik\ElectronicItem\MicrowaveItem;
-use Tracktik\ElectronicItem\ControllerItem;
+use Tracktik\ElectronicItem\{ConsoleItem,TelevisionItem,MicrowaveItem,ControllerItem};
 use Tracktik\ElectronicItems\ElectronicItemsAggregate;
 
 

@@ -7,7 +7,6 @@ include_once(__DIR__."/../InterfaceElectronic/ItemInterface.php");
 use Tracktik\InterfaceElectronic\ElectronicItemsInterface;
 use Tracktik\InterfaceElectronic\ItemInterface;
 
-
 class ElectronicItemsAggregate implements ElectronicItemsInterface {
     /**
      * @var array
